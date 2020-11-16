@@ -1,0 +1,51 @@
+.navbar-dark .navbar-nav .nav-item
+{
+    margin: 0 15px;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-family:  sans-serif;
+}
+label{
+    font-weight: 500;
+}
+.form-check-label{
+    font-weight: 400;
+}
+.service {
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+.personal {
+    background-color: rgba(201, 201, 201, 0);
+}
+.birth {
+    background-color: rgba(201, 201, 201, 0);
+}
+.main{
+    
+background: rgb(255,128,9);
+background: linear-gradient(180deg, rgba(255,128,9,1) 46%, rgba(226,212,202,1) 48%, rgba(4,156,38,1) 68%, rgba(10,164,44,1) 100%);
+}
+.card1 {
+    background: rgb(245,133,27);
+background: linear-gradient(180deg, rgba(245,133,27,1) 4%, rgba(226,212,202,1) 47%, rgba(4,156,38,1) 87%);
+}
+.card2{
+    background: rgb(245,133,27);
+    background: linear-gradient(180deg, rgba(245,133,27,1) 4%, rgba(226,212,202,1) 47%, rgba(4,156,38,1) 87%);
+}
+.card3{
+    background: rgb(245,133,27);
+    background: linear-gradient(180deg, rgba(245,133,27,1) 4%, rgba(226,212,202,1) 47%, rgba(4,156,38,1) 87%);
+}
+.myform{
+    background: rgb(210,193,179);
+    background: linear-gradient(180deg, rgba(210,193,179,0.48783263305322133) 0%, rgba(245,133,27,1) 4%, rgba(226,212,202,1) 47%, rgba(4,156,38,1) 87%, rgba(185,214,192,0.4542191876750701) 100%);
+}
+.errors{
+    font-weight: 400;
+    color: red;
+    font-size: small;
+    
+}
