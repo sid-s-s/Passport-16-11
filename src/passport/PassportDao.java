@@ -50,11 +50,10 @@ public class PassportDao implements PassportImpl {
 
 	
 	
-	@SuppressWarnings("rawtypes")
-	public List<Passport> viewId() {
+	public int viewId() {
 		String sql="select max(application_num) from passport";
-		@SuppressWarnings("unchecked")
-		List<Passport> ins = jdbctemp.query(sql,new BeanPropertyRowMapper(Passport.class));
+	
+		int ins = jdbctemp.queryForInt(sql);
 		return ins;
 		
 	}
