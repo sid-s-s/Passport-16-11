@@ -63,7 +63,7 @@ public class FormController {
 	@RequestMapping(value = "/view", method=RequestMethod.GET)
 	public String viewId(ModelMap model)
 	{
-		List<Passport> ps= passportDao.viewId();
+		int ps= passportDao.viewId();
 		model.addAttribute("view",ps);
 		return "Success";
 		
